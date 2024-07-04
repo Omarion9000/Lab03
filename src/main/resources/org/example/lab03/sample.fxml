@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.lab03.Controller">
+    <children>
+        <Label layoutX="20.0" layoutY="20.0" text="Username:"/>
+        <TextField fx:id="usernameField" layoutX="100.0" layoutY="20.0" />
+
+        <Label layoutX="20.0" layoutY="60.0" text="Contact Number:"/>
+        <TextField fx:id="contactNumberField" layoutX="100.0" layoutY="60.0" />
+
+        <Label layoutX="20.0" layoutY="100.0" text="Postal Code:"/>
+        <TextField fx:id="postalCodeField" layoutX="100.0" layoutY="100.0" />
+
+        <Button layoutX="100.0" layoutY="140.0" text="Validate" onAction="#validateInput"/>
+
+        <Label fx:id="resultLabel" layoutX="100.0" layoutY="180.0" text=""/>
+    </children>
+</AnchorPane>
